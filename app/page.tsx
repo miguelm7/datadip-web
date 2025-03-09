@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-indigo-700">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-black">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="flex flex-col justify-center space-y-4">
@@ -25,7 +25,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-white/90">
+                <Button asChild size="lg" className="bg-white text-black hover:bg-white/90">
                   <Link href="#contact">Get Started</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Our Services</div>
+              <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm text-gray-800">Our Services</div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Data Solutions for Every Need</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 We offer comprehensive data consultancy services to help businesses leverage their data assets
@@ -62,7 +62,7 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-6 mt-12 md:grid-cols-2 lg:grid-cols-3">
             <Card>
               <CardHeader className="flex flex-row items-center gap-4">
-                <Database className="h-8 w-8 text-blue-600" />
+                <Database className="h-8 w-8 text-gray-800" />
                 <div>
                   <CardTitle>Data Architecture</CardTitle>
                   <CardDescription>Design scalable data infrastructure</CardDescription>
@@ -75,14 +75,14 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="gap-1">
+                <Button variant="ghost" className="gap-1 text-gray-700 hover:text-black">
                   Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
               </CardFooter>
             </Card>
             <Card>
               <CardHeader className="flex flex-row items-center gap-4">
-                <BarChart3 className="h-8 w-8 text-blue-600" />
+                <BarChart3 className="h-8 w-8 text-gray-800" />
                 <div>
                   <CardTitle>Data Analytics</CardTitle>
                   <CardDescription>Transform data into insights</CardDescription>
@@ -95,14 +95,14 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="gap-1">
+                <Button variant="ghost" className="gap-1 text-gray-700 hover:text-black">
                   Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
               </CardFooter>
             </Card>
             <Card>
               <CardHeader className="flex flex-row items-center gap-4">
-                <LineChart className="h-8 w-8 text-blue-600" />
+                <LineChart className="h-8 w-8 text-gray-800" />
                 <div>
                   <CardTitle>Predictive Modeling</CardTitle>
                   <CardDescription>Forecast future trends</CardDescription>
@@ -115,14 +115,14 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="gap-1">
+                <Button variant="ghost" className="gap-1 text-gray-700 hover:text-black">
                   Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
               </CardFooter>
             </Card>
             <Card>
               <CardHeader className="flex flex-row items-center gap-4">
-                <Zap className="h-8 w-8 text-blue-600" />
+                <Zap className="h-8 w-8 text-gray-800" />
                 <div>
                   <CardTitle>Data Integration</CardTitle>
                   <CardDescription>Connect disparate data sources</CardDescription>
@@ -135,14 +135,14 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="gap-1">
+                <Button variant="ghost" className="gap-1 text-gray-700 hover:text-black">
                   Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
               </CardFooter>
             </Card>
             <Card>
               <CardHeader className="flex flex-row items-center gap-4">
-                <Globe className="h-8 w-8 text-blue-600" />
+                <Globe className="h-8 w-8 text-gray-800" />
                 <div>
                   <CardTitle>Big Data Solutions</CardTitle>
                   <CardDescription>Handle massive data volumes</CardDescription>
@@ -155,14 +155,14 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="gap-1">
+                <Button variant="ghost" className="gap-1 text-gray-700 hover:text-black">
                   Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
               </CardFooter>
             </Card>
             <Card>
               <CardHeader className="flex flex-row items-center gap-4">
-                <Shield className="h-8 w-8 text-blue-600" />
+                <Shield className="h-8 w-8 text-gray-800" />
                 <div>
                   <CardTitle>Data Governance</CardTitle>
                   <CardDescription>Ensure data quality and compliance</CardDescription>
@@ -175,7 +175,7 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="gap-1">
+                <Button variant="ghost" className="gap-1 text-gray-700 hover:text-black">
                   Learn more <ArrowRight className="h-4 w-4" />
                 </Button>
               </CardFooter>
@@ -199,7 +199,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">About Us</div>
+                <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm text-gray-800">About Us</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Your Trusted Data Partner</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Founded in 2023, DataDip has quickly established itself as a leader in data consultancy, helping
@@ -235,7 +235,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Our Team</div>
+              <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm text-gray-800">Our Team</div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Meet the Experts</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Our team of data scientists, engineers, and analysts brings decades of combined experience to solve your
@@ -289,7 +289,7 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Testimonials</div>
+              <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm text-gray-800">Testimonials</div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What Our Clients Say</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Don't just take our word for it. Here's what our clients have to say about working with DataDip.
@@ -322,7 +322,7 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-blue-100 px-3 py-1 text-sm text-blue-600">Contact Us</div>
+                <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm text-gray-800">Contact Us</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Dive Deeper?</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Get in touch with our team to discuss how DataDip can help you unlock the full potential of your data.
@@ -330,7 +330,7 @@ export default function Home() {
               </div>
               <div className="space-y-4">
                 <div className="flex items-center gap-2">
-                  <Users className="h-5 w-5 text-blue-600" />
+                  <Users className="h-5 w-5 text-gray-800" />
                   <span>123 Data Street, Analytics City, AC 12345</span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -344,7 +344,7 @@ export default function Home() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-blue-600"
+                    className="h-5 w-5 text-gray-800"
                   >
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
@@ -361,7 +361,7 @@ export default function Home() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-blue-600"
+                    className="h-5 w-5 text-gray-800"
                   >
                     <rect width="20" height="16" x="2" y="4" rx="2" />
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
@@ -376,7 +376,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-blue-600">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-black">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
