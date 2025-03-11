@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/image.webp?height=550&width=550"
                 width={550}
                 height={550}
                 alt="Data visualization dashboard"
@@ -190,7 +190,7 @@ export default function Home() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="flex justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/image.webp?height=400&width=600"
                 width={600}
                 height={400}
                 alt="DataDip team working"
@@ -248,37 +248,37 @@ export default function Home() {
               name="Alex Johnson"
               role="Founder & CEO"
               bio="Former data science lead at Google with 15+ years of experience in big data and analytics."
-              imageSrc="/placeholder.svg?height=300&width=300"
+              imageSrc="/image.webp?height=300&width=300"
             />
             <TeamMember
               name="Sarah Chen"
               role="Chief Data Scientist"
               bio="PhD in Machine Learning with expertise in predictive modeling and natural language processing."
-              imageSrc="/placeholder.svg?height=300&width=300"
+              imageSrc="/image.webp?height=300&width=300"
             />
             <TeamMember
               name="Michael Rodriguez"
               role="Head of Data Engineering"
               bio="Specialized in building scalable data pipelines and cloud-based data infrastructure."
-              imageSrc="/placeholder.svg?height=300&width=300"
+              imageSrc="/image.webp?height=300&width=300"
             />
             <TeamMember
               name="Priya Patel"
               role="Lead Data Analyst"
               bio="Expert in translating complex data into actionable business insights across industries."
-              imageSrc="/placeholder.svg?height=300&width=300"
+              imageSrc="/image.webp?height=300&width=300"
             />
             <TeamMember
               name="David Kim"
               role="Data Governance Specialist"
               bio="Certified in data privacy regulations with experience implementing governance frameworks."
-              imageSrc="/placeholder.svg?height=300&width=300"
+              imageSrc="/image.webp?height=300&width=300"
             />
             <TeamMember
               name="Emma Wilson"
               role="Client Success Manager"
               bio="Dedicated to ensuring clients achieve their data objectives and maximize ROI."
-              imageSrc="/placeholder.svg?height=300&width=300"
+              imageSrc="/image.webp?height=300&width=300"
             />
           </div>
         </div>
@@ -331,7 +331,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex items-center gap-2">
                   <Users className="h-5 w-5 text-gray-800" />
-                  <span>123 Data Street, Analytics City, AC 12345</span>
+                  <span>Alicante</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg
@@ -348,7 +348,7 @@ export default function Home() {
                   >
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                   </svg>
-                  <span>(555) 123-4567</span>
+                  <span>(+34) 628 736 405</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg
@@ -366,7 +366,7 @@ export default function Home() {
                     <rect width="20" height="16" x="2" y="4" rx="2" />
                     <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                   </svg>
-                  <span>info@datadip.com</span>
+                  <span>info@datadip.es</span>
                 </div>
               </div>
             </div>
@@ -482,7 +482,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm text-gray-400">© 2023 DataDip. All rights reserved.</p>
+            <p className="text-sm text-gray-400">© 2025 DataDip. All rights reserved.</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <Link href="#" className="text-gray-400 hover:text-blue-400">
                 <svg
